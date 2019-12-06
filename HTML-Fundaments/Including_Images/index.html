@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Francisco Flores">
+    <title>Including Images</title>
+</head>
+<body>
+        <picture>
+            <source media="(max-width: 576px)" srcset="./content/imagen1.jpg">
+            <source media="(max-width: 768px)" srcset="./content/imagen2.jpg">
+            <source media="(max-width: 992px)" srcset="./content/imagen3.jpg">
+            <source media="(max-width: 1200px)" srcset="./content/imagen4.jpg">
+            <img src="./content/logo.png" alt="" height="300">
+        </picture>
+            
+</body>
+</html>
